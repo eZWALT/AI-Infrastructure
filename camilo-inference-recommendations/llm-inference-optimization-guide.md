@@ -1,5 +1,7 @@
 # LLM Inference Optimization — Resources
 
+Curated by [Camilo (@jcfernandezpr)](https://github.com/jcfernandezpr).
+
 ## Suggested order
 
 Handbook Foundations → 2. kipply's arithmetic → 3. Run vLLM and benchmark → 4. Handbook Optimization + papers → 5. Kernel optimization → 6. Curated lists, ongoing.

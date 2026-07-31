@@ -60,7 +60,7 @@ A fundamental systems course covering architecture, resource accounting, GPU opt
 
 ### 03. Camilo's Inference Optimization Resources
 
-A practical path from inference arithmetic and memory fundamentals to vLLM benchmarking, GPU kernels, engines, and research papers.
+A practical path curated by [Camilo (@jcfernandezpr)](https://github.com/jcfernandezpr), from inference arithmetic and memory fundamentals to vLLM benchmarking, GPU kernels, engines, and research papers.
 
 [Open the inference optimization resources](camilo-inference-recommendations/)
 
