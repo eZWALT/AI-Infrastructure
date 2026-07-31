@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">World model platform blueprint</title>
+  <desc id="desc">Planned flow from data sources through pipelines and training to a Kubernetes serving platform with observability and governance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#081321"/>
+      <stop offset="1" stop-color="#111936"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="m0 0 10 5-10 5Z" fill="#818cf8"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="65" fill="#f8fafc" font-family="Inter,system-ui,sans-serif" font-size="30" font-weight="800">World Model Platform - target architecture</text>
+  <text x="60" y="96" fill="#94a3b8" font-family="Inter,system-ui,sans-serif" font-size="16">A small, reproducible Kubernetes platform--built in public, one capability at a time.</text>
+
+  <g fill="none" stroke="#818cf8" stroke-width="3" marker-end="url(#arrow)" opacity=".8">
+    <path d="M226 250H286"/>
+    <path d="M476 250H536"/>
+    <path d="M726 250H786"/>
+    <path d="M976 250h60"/>
+    <path d="M631 323v79"/>
+  </g>
+
+  <g font-family="Inter,system-ui,sans-serif" filter="url(#shadow)">
+    <g transform="translate(60 155)">
+      <rect width="166" height="190" rx="18" fill="#0c2737" stroke="#22d3ee"/>
+      <circle cx="83" cy="55" r="28" fill="#164e63"/>
+      <path d="M66 48c0-9 34-9 34 0v22c0 9-34 9-34 0Zm0 0c0 9 34 9 34 0M66 59c0 9 34 9 34 0" fill="none" stroke="#67e8f9" stroke-width="2"/>
+      <text x="83" y="113" text-anchor="middle" fill="#ecfeff" font-size="18" font-weight="700">Data</text>
+      <text x="83" y="142" text-anchor="middle" fill="#a5f3fc" font-size="13">datasets - streams</text>
+      <text x="83" y="163" text-anchor="middle" fill="#a5f3fc" font-size="13">object storage</text>
+    </g>
+    <g transform="translate(286 155)">
+      <rect width="190" height="190" rx="18" fill="#102044" stroke="#60a5fa"/>
+      <circle cx="95" cy="55" r="28" fill="#1e3a8a"/>
+      <path d="M78 62h34M82 48h8v8h-8Zm18 0h8v8h-8Z" fill="none" stroke="#93c5fd" stroke-width="2"/>
+      <text x="95" y="113" text-anchor="middle" fill="#eff6ff" font-size="18" font-weight="700">Pipelines</text>
+      <text x="95" y="142" text-anchor="middle" fill="#bfdbfe" font-size="13">validate - version</text>
+      <text x="95" y="163" text-anchor="middle" fill="#bfdbfe" font-size="13">orchestrate</text>
+    </g>
+    <g transform="translate(536 155)">
+      <rect width="190" height="190" rx="18" fill="#1e1b4b" stroke="#818cf8"/>
+      <circle cx="95" cy="55" r="28" fill="#312e81"/>
+      <path d="m95 37 16 9v18l-16 9-16-9V46Zm0 0v18m16-9-16 9-16-9" fill="none" stroke="#a5b4fc" stroke-width="2"/>
+      <text x="95" y="113" text-anchor="middle" fill="#eef2ff" font-size="18" font-weight="700">Training</text>
+      <text x="95" y="142" text-anchor="middle" fill="#c7d2fe" font-size="13">GPU jobs - tracking</text>
+      <text x="95" y="163" text-anchor="middle" fill="#c7d2fe" font-size="13">model registry</text>
+    </g>
+    <g transform="translate(786 155)">
+      <rect width="190" height="190" rx="18" fill="#2e174f" stroke="#c084fc"/>
+      <circle cx="95" cy="55" r="28" fill="#581c87"/>
+      <path d="M79 44h32v23H79Zm7 23v7m18-7v7M82 74h26" fill="none" stroke="#d8b4fe" stroke-width="2"/>
+      <text x="95" y="113" text-anchor="middle" fill="#faf5ff" font-size="18" font-weight="700">Serving</text>
+      <text x="95" y="142" text-anchor="middle" fill="#e9d5ff" font-size="13">inference - gateway</text>
+      <text x="95" y="163" text-anchor="middle" fill="#e9d5ff" font-size="13">autoscaling</text>
+    </g>
+    <g transform="translate(1036 155)">
+      <rect width="104" height="190" rx="18" fill="#3b1745" stroke="#e879f9"/>
+      <circle cx="52" cy="55" r="28" fill="#701a75"/>
+      <path d="M37 64 45 53l8 6 14-18" fill="none" stroke="#f0abfc" stroke-width="2"/>
+      <text x="52" y="113" text-anchor="middle" fill="#fdf4ff" font-size="16" font-weight="700">Users</text>
+      <text x="52" y="142" text-anchor="middle" fill="#f5d0fe" font-size="12">apps</text>
+      <text x="52" y="162" text-anchor="middle" fill="#f5d0fe" font-size="12">agents</text>
+    </g>
+
+    <g transform="translate(286 402)">
+      <rect width="690" height="132" rx="18" fill="#0f1d34" stroke="url(#line)" stroke-width="2"/>
+      <text x="345" y="38" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Kubernetes platform foundation</text>
+      <g fill="#132a45" stroke="#38bdf8">
+        <rect x="34" y="62" width="142" height="42" rx="10"/>
+        <rect x="194" y="62" width="142" height="42" rx="10"/>
+        <rect x="354" y="62" width="142" height="42" rx="10"/>
+        <rect x="514" y="62" width="142" height="42" rx="10"/>
+      </g>
+      <g fill="#bae6fd" font-size="13" font-weight="650" text-anchor="middle">
+        <text x="105" y="88">GitOps</text>
+        <text x="265" y="88">Observability</text>
+        <text x="425" y="88">Security</text>
+        <text x="585" y="88">FinOps</text>
+      </g>
+    </g>
+  </g>
+  <text x="600" y="584" text-anchor="middle" fill="#64748b" font-family="ui-monospace,monospace" font-size="13">DESIGN &gt; BUILD &gt; MEASURE &gt; DOCUMENT &gt; REPEAT</text>
+  <rect x="1" y="1" width="1198" height="618" rx="23" fill="none" stroke="#94a3b8" stroke-opacity=".15" stroke-width="2"/>
+</svg>

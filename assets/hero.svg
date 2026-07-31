@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
+  <title id="title">AI Infrastructure</title>
+  <desc id="desc">Minimal banner for a curated AI infrastructure learning library and platform build.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="460" rx="24" fill="#0b0f19"/>
+
+  <g transform="translate(88 78)" font-family="Inter,ui-sans-serif,system-ui,-apple-system,sans-serif">
+    <rect width="56" height="4" rx="2" fill="url(#accent)"/>
+    <text y="84" fill="#f8fafc" font-size="62" font-weight="720" letter-spacing="-2">AI Infrastructure</text>
+    <text y="130" fill="#94a3b8" font-size="22">Curated learning. One platform build.</text>
+
+    <g transform="translate(0 214)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
+      <text fill="#64748b">01</text>
+      <text x="34" fill="#cbd5e1">LEARN</text>
+      <text x="126" fill="#334155">/</text>
+      <text x="151" fill="#64748b">02</text>
+      <text x="185" fill="#cbd5e1">BUILD</text>
+      <text x="277" fill="#334155">/</text>
+      <text x="302" fill="#64748b">03</text>
+      <text x="336" fill="#cbd5e1">OPERATE</text>
+    </g>
+  </g>
+
+  <g transform="translate(840 104)">
+    <g fill="none" stroke="#334155" stroke-width="2">
+      <path d="M52 126h102"/>
+      <path d="M206 126h102"/>
+      <path d="M360 126h102"/>
+    </g>
+    <g fill="#0b0f19" stroke-width="2">
+      <circle cx="26" cy="126" r="26" stroke="#2563eb"/>
+      <circle cx="180" cy="126" r="26" stroke="#3b82f6"/>
+      <circle cx="334" cy="126" r="26" stroke="#6366f1"/>
+      <circle cx="488" cy="126" r="26" stroke="#7c3aed"/>
+    </g>
+    <g fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" text-anchor="middle">
+      <text x="26" y="178">DATA</text>
+      <text x="180" y="178">TRAIN</text>
+      <text x="334" y="178">SERVE</text>
+      <text x="488" y="178">OBSERVE</text>
+    </g>
+    <g fill="#e2e8f0">
+      <rect x="18" y="116" width="16" height="20" rx="2"/>
+      <path d="M171 135h18l-9-18Z"/>
+      <rect x="325" y="117" width="18" height="18" rx="2"/>
+      <path d="m478 134 7-9 6 4 8-12v17Z"/>
+    </g>
+  </g>
+
+  <path d="M88 408H1312" stroke="#1e293b"/>
+  <text x="1312" y="390" text-anchor="end" fill="#475569" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">LEARNING LIBRARY / WORLD MODEL PLATFORM</text>
+</svg>
