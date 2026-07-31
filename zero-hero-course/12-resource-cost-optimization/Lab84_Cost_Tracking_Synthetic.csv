@@ -1,0 +1,9 @@
+Run,Optimization,Throughput_img_s,P95_Latency_ms,GPU_Util_pct,Accuracy_pct,Training_Time_min,Compute_Cost_USD,Storage_Cost_USD,Network_Cost_USD,Total_Cost_USD,Savings_vs_Baseline_pct
+1,"Baseline (On-Demand, FP32)",820,110,63,93.1,120,12.8,0.42,0.31,13.53,0.0
+2,Spot Instance,820,110,63,93.1,120,4.65,0.42,0.31,5.38,60.2
+3,AMP (Mixed Precision),1120,84,82,93.0,88,3.81,0.42,0.31,4.54,66.4
+4,Batch Size 256,1280,80,95,92.9,77,3.2,0.42,0.31,3.93,71.0
+5,Local NVMe Cache,1315,77,96,92.9,74,3.08,0.42,0.18,3.68,72.8
+6,Same-Region Storage,1315,77,96,92.9,74,3.08,0.42,0.05,3.55,73.8
+7,torch.compile(),1410,72,97,93.0,68,2.86,0.42,0.05,3.33,75.4
+8,Triton Dynamic Batching,1680,46,97,93.0,68,2.61,0.42,0.05,3.08,77.2
