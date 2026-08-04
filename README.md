@@ -35,6 +35,7 @@ AI-Infrastructure/
 ├── stanford-cs336-.../               # language modeling from first principles
 ├── camilo-inference-recommendations/ # curated inference study path
 ├── world-model-platform/             # the flagship platform project
+├── research/                         # researched future learning sources
 ├── assets/                           # diagrams and artwork
 ├── ROADMAP.md
 ├── CONTRIBUTING.md
@@ -88,7 +89,7 @@ This is the target architecture; implementation is still in its foundation phase
 - **Active study:** Stanford CS336 Lecture 3
 - **Platform:** scope, architecture, and milestones defined
 
-See [ROADMAP.md](ROADMAP.md) for active and upcoming work.
+See the [learning radar](research/AI-INFRASTRUCTURE-LEARNING-RADAR.md) for researched future resources and [ROADMAP.md](ROADMAP.md) for active work.
 
 ## How to use it
 
