@@ -20,10 +20,11 @@ Study high-signal material from strong external sources, preserve clear provenan
 - [x] Preserve a selected introductory AI infrastructure course
 - [x] Add Stanford CS336 as a foundational learning source
 - [x] Add Camilo's curated inference optimization study path
+- [x] Add a student-side folder for the JAX Scaling Book with local PDF
 - [ ] Add original source, author, and license metadata to that course
 - [ ] Define a small provenance template for future learning folders
 - [ ] Complete Stanford CS336 Lecture 3 architecture notes and experiments
-- [ ] Select the next deep technical source after the active CS336 work
+- [ ] Work through jax-scaling-book exercises for rooflines, Transformer math, and parallelism
 
 ### World Model Platform
 

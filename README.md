@@ -20,7 +20,7 @@
 
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-7c3aed.svg?style=flat-square" alt="Apache 2.0 license"></a>
-    <img src="https://img.shields.io/badge/resources-4-06b6d4.svg?style=flat-square" alt="4 resources">
+    <img src="https://img.shields.io/badge/resources-5-06b6d4.svg?style=flat-square" alt="5 resources">
     <img src="https://img.shields.io/badge/flagship_projects-1-6366f1.svg?style=flat-square" alt="1 flagship project">
   </p>
 </div>
@@ -34,6 +34,7 @@ AI-Infrastructure/
 ├── zero-hero-course/                 # selected introductory labs
 ├── stanford-cs336-.../               # language modeling from first principles
 ├── camilo-inference-recommendations/ # curated inference study path
+├── jax-scaling-book/                 # student notes for How to Scale Your Model
 ├── world-model-platform/             # the flagship platform project
 ├── research/                         # researched future learning sources
 ├── assets/                           # diagrams and artwork
@@ -65,6 +66,12 @@ A practical path curated by [Camilo (@jcfernandezpr)](https://github.com/jcferna
 
 [Open the inference optimization resources](camilo-inference-recommendations/)
 
+### 04. JAX Scaling Book
+
+A student-side study path for *How to Scale Your Model*: rooflines, Transformer math, parallelism, training and inference cost, and GPU/TPU tradeoffs. Includes a local PDF.
+
+[Open the scaling-book study folder](jax-scaling-book/)
+
 ## Flagship project
 
 ### World Model Platform
@@ -85,8 +92,9 @@ This is the target architecture; implementation is still in its foundation phase
 
 ## Current progress
 
-- **Library:** 3 learning sources indexed
+- **Library:** 4 learning sources indexed
 - **Active study:** Stanford CS336 Lecture 3
+- **Queued:** How to Scale Your Model
 - **Platform:** scope, architecture, and milestones defined
 
 See the [learning radar](research/AI-INFRASTRUCTURE-LEARNING-RADAR.md) for researched future resources and [ROADMAP.md](ROADMAP.md) for active work.
